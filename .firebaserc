@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "test-f98d5": {
+      "hosting": {
+        "proyecto": [
+          "test-f98d5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "test-f98d5"
+  }
+}
