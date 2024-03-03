@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+$color1: #AA6B39;
+$color2: #D4996A;
+$color3: #FFEEE0;
+
+$border-radius: 8px;
+
+// Tamaños de margen /padding
+$m-025: 0.25rem;
+$m-05: 0.5rem;
+$m-075: 0.75rem;
+$m-1: 1rem;
+$m-125: 1.25rem;
+$m-15: 1.5rem;
+$m-175: 1.75rem;
+$m-2: 2rem;
+$m-3: 3rem;
+
+*{
+    box-sizing: border-box;
+    font-family: Trebuchet MS (sans-serif);
+}
+
