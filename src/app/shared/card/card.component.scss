@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .image {
+    flex: 0 0 auto;
+    width: 300px;
+  }
+  
+  .image img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .content h1, h2, h3, p{
+    margin: 0
+  }
+  
+  .stars {
+    color: gold;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

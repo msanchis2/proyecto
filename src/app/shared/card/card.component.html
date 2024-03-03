@@ -1,0 +1,21 @@
+<p>card works!</p>
+<!-- card.component.html -->
+<div class="card">
+    <div class="image">
+      <img [src]="imagenUrl" alt="Imagen">
+    </div>
+    <div class="content">
+      <h2>{{ titulo }}</h2>
+      <h3>{{ ubicacion }}</h3>
+      <p>{{ descripcion }}</p>
+      <div class="stars">
+        @for(star of [1, 2, 3, 4, 5]; track star) {
+            <span class="star" >
+                <i class="fas fa-star" [class.fas]="puntuacion >= star" [class.far]="puntuacion < star"></i>
+            </span>
+        }
+      </div>
+      <button>Ver detalle</button>
+    </div>
+  </div>
+  
